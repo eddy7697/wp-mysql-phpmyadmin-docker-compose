@@ -45,6 +45,6 @@ services:
     ports:
       - "6379:6379"
     restart: always
-    command: redis-server --requirepass yourpassword
+    command: redis-server --requirepass AliJApeLM4Sw1chF
 volumes:
   db_data: {}
