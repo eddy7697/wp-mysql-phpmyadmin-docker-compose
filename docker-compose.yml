@@ -27,8 +27,6 @@ services:
     depends_on:
       - db
     image: "redis:4-alpine"
-    ports:
-      - "6379:6379"
     restart: always
     command: redis-server --requirepass AliJApeLM4Sw1chF
 
